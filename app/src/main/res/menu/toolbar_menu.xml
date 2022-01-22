@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/facebook"
+        android:title="@string/Facebook"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter"
+        android:title="@string/Twitter"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/instagram"
+        android:icon="@drawable/instagram"
+        android:title="@string/Instagram"
+        app:showAsAction="always"
+        />
+
+</menu>

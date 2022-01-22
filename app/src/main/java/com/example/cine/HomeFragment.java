@@ -2,6 +2,8 @@ package com.example.cine;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -28,6 +30,12 @@ public class HomeFragment extends Fragment {
         if (activity != null){
             activity.setSupportActionBar(toolbar);
         }
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater menuInflater){
+        menuInflater.inflate(R.menu.toolbar_menu,menu);
+        super.onCreateOptionsMenu(menu,menuInflater);
     }
 
 }

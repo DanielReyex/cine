@@ -5,4 +5,7 @@
     <string name="login_button">Acceso</string>
     <string name="login_cancel_button">Cancelar</string>
     <string name="login_error_message">Contraseña debe tener 6 caracteres</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Instagram">Instagram</string>
 </resources>
